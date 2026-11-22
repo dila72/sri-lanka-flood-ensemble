@@ -1,11 +1,13 @@
 import json
-import joblib
+import importlib
 import pandas as pd
-import plotly.express as px
+import plotly.express as px  # type: ignore[reportMissingImports]
 import plotly.graph_objects as go
 import streamlit as st
 
 st.set_page_config(page_title="Sri Lanka Flood Risk Ensemble Dashboard", layout="wide")
+
+joblib = importlib.import_module("joblib")
 
 @st.cache_resource
 def load_artifacts():
