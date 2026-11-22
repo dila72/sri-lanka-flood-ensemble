@@ -1,0 +1,74 @@
+{
+  "Bagging (Random Forest)": {
+    "Accuracy": 0.9134,
+    "Precision": 0.6034,
+    "Recall": 0.3603,
+    "F1_Score": 0.4512,
+    "ROC_AUC": 0.9586,
+    "Confusion_Matrix": [
+      [
+        4389,
+        117
+      ],
+      [
+        316,
+        178
+      ]
+    ],
+    "Feature_Importances": {
+      "elevation_m": 0.1042,
+      "distance_to_river_m": 0.1078,
+      "rainfall_7d_mm": 0.2362,
+      "monthly_rainfall_mm": 0.3038,
+      "drainage_index": 0.0726,
+      "population_density_per_km2": 0.0601,
+      "built_up_percent": 0.0557,
+      "infrastructure_score": 0.0596
+    }
+  },
+  "Boosting (XGBoost)": {
+    "Accuracy": 0.916,
+    "Precision": 0.5898,
+    "Recall": 0.4919,
+    "F1_Score": 0.5364,
+    "ROC_AUC": 0.9576,
+    "Confusion_Matrix": [
+      [
+        4337,
+        169
+      ],
+      [
+        251,
+        243
+      ]
+    ],
+    "Feature_Importances": {
+      "elevation_m": 0.1236,
+      "distance_to_river_m": 0.0967,
+      "rainfall_7d_mm": 0.2926,
+      "monthly_rainfall_mm": 0.3138,
+      "drainage_index": 0.0514,
+      "population_density_per_km2": 0.0354,
+      "built_up_percent": 0.0357,
+      "infrastructure_score": 0.0509
+    }
+  },
+  "Stacking (RF + XGB + ET)": {
+    "Accuracy": 0.9214,
+    "Precision": 0.6305,
+    "Recall": 0.4939,
+    "F1_Score": 0.5539,
+    "ROC_AUC": 0.959,
+    "Confusion_Matrix": [
+      [
+        4363,
+        143
+      ],
+      [
+        250,
+        244
+      ]
+    ],
+    "Feature_Importances": {}
+  }
+}

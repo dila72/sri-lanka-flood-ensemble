@@ -1,0 +1,42 @@
+{
+  "elevation_m": {
+    "min": 0.0,
+    "max": 2148.0,
+    "median": 68.0
+  },
+  "distance_to_river_m": {
+    "min": 0.0,
+    "max": 16802.0,
+    "median": 1394.2
+  },
+  "rainfall_7d_mm": {
+    "min": 0.0,
+    "max": 372.2,
+    "median": 69.5
+  },
+  "monthly_rainfall_mm": {
+    "min": 0.0,
+    "max": 863.7,
+    "median": 202.0
+  },
+  "drainage_index": {
+    "min": 0.003,
+    "max": 0.999,
+    "median": 0.501
+  },
+  "population_density_per_km2": {
+    "min": 10.0,
+    "max": 3113.0,
+    "median": 519.0
+  },
+  "built_up_percent": {
+    "min": 1.0,
+    "max": 95.0,
+    "median": 23.3
+  },
+  "infrastructure_score": {
+    "min": 5.0,
+    "max": 95.0,
+    "median": 46.0
+  }
+}
