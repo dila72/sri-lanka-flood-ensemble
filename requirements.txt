@@ -1,7 +1,7 @@
 streamlit
 pandas
 numpy
-plotly
+plotly==6.3.1
 joblib
 scikit-learn==1.6.1
 xgboost==3.4.1
